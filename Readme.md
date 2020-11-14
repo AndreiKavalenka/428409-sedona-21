@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Коваленко](https://up.htmlacademy.ru/adaptive/21/user/428409).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Лесухин] (https://htmlacademy.ru/profile/id181931).
 
 ---
 
