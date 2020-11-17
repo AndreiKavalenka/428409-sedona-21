@@ -57,7 +57,6 @@
         <form action="https://echo.htmlacademy.ru" method="POST" id="reviews-form">
 
           <section class="form-sections__item">
-            <h2 class="visually-hidden">Форма идентификации пользователя</h2>
             <h3 class="form__title">Представьтесь:</h3>
 
             <div class="form__line">
@@ -77,7 +76,6 @@
           </section>
 
           <section class="form-sections__item">
-            <h2 class="visually-hidden">Контактная информация:</h2>
             <h3 class="form__title">Контактная информация:</h3>
 
             <div class="form__phone">
@@ -101,7 +99,6 @@
           </section>
 
           <section class="form-sections__item">
-            <h2 class="visually-hidden">Общее впечатление:</h2>
             <h3 class="form__title">Общее впечатление:</h3>
 
             <div class="form__impressions">
@@ -121,6 +118,33 @@
                 <label for="neutral">Затрудняюсь ответить</label>
               </div>
             </div>
+          </section>
+
+          <section class="form-sections__item">
+            <h3 class="form__title">Посещенные достопримечательности:</h3>
+
+            <div class="form__attractions">
+              <div class="attractions__item">
+                <input class="form__user-attractions" type="checkbox" name="attraction1" id="attraction1" checked>
+                <label for="attraction1">Мост дьявола</label>
+              </div>
+
+              <div class="attractions__item">
+                <input class="form__user-attractions" type="checkbox" name="attraction2" id="attraction2" checked>
+                <label for="attraction2">Гора-Колокол</label>
+              </div>
+
+              <div class="attractions__item">
+                <input class="form__user-attractions" type="checkbox" name="attraction3" id="attraction3" checked>
+                <label for="attraction3">Слайд-парк</label>
+              </div>
+
+              <div class="attractions__item">
+                <input class="form__user-attractions" type="checkbox" name="attraction4" id="attraction4">
+                <label for="attraction4">Красные скалы</label>
+              </div>
+            </div>
+          </section>
 
         </form>
         <input type="submit" form="reviews-form">
