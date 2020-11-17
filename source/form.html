@@ -40,17 +40,61 @@
     </div>
   </header>
 
-<main class="page-main">
-  <div class="page-main__wrapper">
-  <h1 class="visually-hidden">Форма отзыва</h1>
+  <main class="page-main">
+    <div class="page-main__wrapper">
+      <h1 class="visually-hidden">Форма отзыва</h1>
 
-  <div class="page-main__intro">
-    <h3 class="intro__title">Оставьте свой отзыв</h3>
-    <p class="intro__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-  </div>
-  </div>
+      <div class="page-main__intro">
+        <h3 class="intro__title">Оставьте свой отзыв</h3>
+        <p class="intro__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами
+          достопримечательностях</p>
+      </div>
+    </div>
 
-</main>
+    <div class="page-main__form-sections">
+      <div class="form-sections__wrapper">
+
+        <form action="https://echo.htmlacademy.ru" method="POST" id="review__form">
+
+          <section class="form-sections__item">
+            <h2 class="visually-hidden">Форма идентификации пользователя</h2>
+            <h3 class="form__title">Представьтесь:</h3>
+
+            <div class="form__line">
+              <label for="name">Имя:<sup>*</sup></label>
+              <input class="form__user-input" type="text" id="name" placeholder="Петр" required>
+            </div>
+
+            <div class="form__line">
+              <label for="second-name">Фамилия:<sup>*</sup></label>
+              <input class="form__user-input" type="text" id="second-name" placeholder="Иванов" required>
+            </div>
+
+            <div class="form__line">
+              <label for="middle-name">Отчество:</label>
+              <input class="form__user-input" type="text" id="middle-name" placeholder="Александрович" required>
+            </div>
+          </section>
+
+          <div class="form-sections__item">
+            <h2 class="visually-hidden">Контактная информация:</h2>
+            <h3 class="form__title">Контактная информация:</h3>
+            <div class="form__phone">
+              <h3 class="form__contacts-title">Контактный телефон<sup>*</sup>:</h3>
+              <input class="phone__input" type="tel" placeholder="Введите телефон" id="phone" required>
+              <label for="phone">
+                <img class="phone__image" src="https://via.placeholder.com/20x20" alt="Иконка телефона" width="20"
+                  height="20">
+              </label>
+            </div>
+          </div>
+
+          <button class="form__button"form="review__form" type="submit" value="Отправить отзыв">
+        </form>
+      </div>
+    </div>
+
+  </main>
 
 </body>
 
