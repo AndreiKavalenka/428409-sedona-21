@@ -61,17 +61,17 @@
 
             <div class="form__line">
               <label for="name">Имя:<sup>*</sup></label>
-              <input class="form__user-input" type="text" id="name" name="Имя" placeholder="Петр" required>
+              <input class="form__user-input" type="text" id="name" name="First-name" placeholder="Петр" required>
             </div>
 
             <div class="form__line">
               <label for="second-name">Фамилия:<sup>*</sup></label>
-              <input class="form__user-input" type="text" id="second-name" name="Фамилия" placeholder="Иванов" required>
+              <input class="form__user-input" type="text" id="second-name" name="Second-name" placeholder="Иванов" required>
             </div>
 
             <div class="form__line">
               <label for="middle-name">Отчество:</label>
-              <input class="form__user-input" type="text" id="middle-name" name="Отчество" placeholder="Александрович">
+              <input class="form__user-input" type="text" id="middle-name" name="Middle-name" placeholder="Александрович">
             </div>
           </section>
 
@@ -80,7 +80,7 @@
 
             <div class="form__phone">
               <h3 class="form__contacts-title">Контактный телефон<sup>*</sup>:</h3>
-              <input class="phone__input" type="tel" placeholder="Введите телефон" id="phone" name="Телефон" required>
+              <input class="phone__input" type="tel" placeholder="Введите телефон" id="phone" name="Phone-number" required>
               <label for="phone">
                 <img class="phone__image" src="https://via.placeholder.com/20x20" alt="Иконка телефона" width="20"
                   height="20">
@@ -89,7 +89,7 @@
 
             <div class="form__email">
               <h3 class="form__contacts-title">Электронная почта<sup>*</sup>:</h3>
-              <input class="email__input" type="email" placeholder="Введите e-mail" id="email" name="Электронная почта"
+              <input class="email__input" type="email" placeholder="Введите e-mail" id="email" name="Email"
                 required>
               <label for="email">
                 <img class="email__image" src="https://via.placeholder.com/20x20" alt="Иконка почты" width="20"
@@ -145,6 +145,12 @@
               </div>
             </div>
           </section>
+          <section class="form-sections__item">
+            <h3 class="form__title">Опишите свои эмоции:</h3>
+            <textarea name="Review-text" cols="30" rows="10"
+              form="reviews-form">Опишите подробно все свои восторги</textarea>
+
+          </section>
 
         </form>
         <input type="submit" form="reviews-form">
@@ -153,6 +159,41 @@
     </div>
 
   </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+
+      <div class="page-footer__hashtag">
+        <p class="hashtag__title">#visitsodona</p>
+      </div>
+
+      <div class="page-footer__social">
+        <ul class="social__list">
+          <li>
+            <a class="social__link--twitter" href="https://twitter.com/">Мы в Twitter!</a>
+          </li>
+        </ul>
+        <ul class="social__list">
+          <li>
+            <a class="social__link--facebook" href="https://www.youtube.com/">Мы на Facebook!</a>
+          </li>
+        </ul>
+        <ul class="social__list">
+          <li>
+            <a class="social__link--youtube" href="https://www.youtube.com/">Мы на Youtube!</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__copyright">
+        <a href="https://htmlacademy.ru/">
+          <h3 class="copyright__title">Разработано</h3>
+          <img class="copyright__image" src="https://via.placeholder.com/50x50" alt="HTML академия" width="50" height="50">
+        </a>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 
