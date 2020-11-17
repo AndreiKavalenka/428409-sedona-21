@@ -79,6 +79,7 @@
           <section class="form-sections__item">
             <h2 class="visually-hidden">Контактная информация:</h2>
             <h3 class="form__title">Контактная информация:</h3>
+
             <div class="form__phone">
               <h3 class="form__contacts-title">Контактный телефон<sup>*</sup>:</h3>
               <input class="phone__input" type="tel" placeholder="Введите телефон" id="phone" name="Телефон" required>
@@ -87,8 +88,39 @@
                   height="20">
               </label>
             </div>
+
+            <div class="form__email">
+              <h3 class="form__contacts-title">Электронная почта<sup>*</sup>:</h3>
+              <input class="email__input" type="email" placeholder="Введите e-mail" id="email" name="Электронная почта"
+                required>
+              <label for="email">
+                <img class="email__image" src="https://via.placeholder.com/20x20" alt="Иконка почты" width="20"
+                  height="20">
+              </label>
+            </div>
           </section>
 
+          <section class="form-sections__item">
+            <h2 class="visually-hidden">Общее впечатление:</h2>
+            <h3 class="form__title">Общее впечатление:</h3>
+
+            <div class="form__impressions">
+
+              <div class="impressions__item">
+                <input class="form__user-impressions" type="radio" name="raiting" id="positive" value="+1" checked>
+                <label for="positive">Скорее положительное</label>
+              </div>
+
+              <div class="impressions__item">
+                <input class="form__user-impressions" type="radio" name="raiting" id="negative" value="-1">
+                <label for="negative">Скорее отрицательное</label>
+              </div>
+
+              <div class="impressions__item">
+                <input class="form__user-impressions" type="radio" name="raiting" id="neutral" value="0">
+                <label for="neutral">Затрудняюсь ответить</label>
+              </div>
+            </div>
 
         </form>
         <input type="submit" form="reviews-form">
