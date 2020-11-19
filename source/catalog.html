@@ -18,84 +18,85 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="site-list__item">
-            <a href="index.html">Главная</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link">Главная</a>
           </li>
-          <li class="site-list__item">
-            <a>Фото и видео</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="catalog.html">Фото и видео</a>
           </li>
-          <li class="site-list__item">
-            <a href="form.html">Форма отзыва</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="form.html">Форма отзыва</a>
           </li>
-          <li class="site-list__item">
-            <a href="https://htmlacademy.ru/">html academy</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="https://htmlacademy.ru/">html academy</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!--может быть нужен wrapper?-->
     <div class="page-header__intro">
       <img class="page-header__intro-image" src="https://via.placeholder.com/150x150" alt="Welcome to Sedona"
         width="150" height="150">
-      <h3 class="intro__title">Фото и видео</h3>
-      <p class="intro__descriptions">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о
+      <h3 class="page-header__intro-title">Фото и видео</h3>
+      <p class="page-header__intro-text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о
         политике и экономике.</p>
     </div>
-    <!--не уверен, чем делать заострения/закругления, может быть псевдоэлементом-->
+
   </header>
 
   <main class="page-main">
     <h1 class="visually-hidden">Фото и видео Седоны</h1>
 
-    <section class="page__pictures">
+    <section class="pictures">
+
       <div class="pictures__wrapper">
 
         <ul class="pictures__list">
 
-          <li class="pictures__item">
-            <img class="item__image" src="https://via.placeholder.com/150x150" alt="Photo-1" width="150" height="150">
-            <h3 class="item__caption">Неродные просторы</h3>
-            <span class="item__author">Автор фото: Борис</span><br>
-            <img class="item__like-image" src="https://via.placeholder.com/40x40" alt="Like" width="40" height="40">
-            <span class="item__like-score">1350</span>
+          <li class="pictures__list-item">
+            <img class="pictures__list-image" src="https://via.placeholder.com/150x150" alt="фотография пользователя" width="150" height="150">
+            <h3 class="pictures__list-caption">Неродные просторы</h3>
+            <span class="pictures__list-author">Автор фото: Борис</span><br>
+            <!--Иконка-псевдоэлементом-->
+            <b class="pictures__list-score">1350</b>
           </li>
 
-          <li class="pictures__item">
-            <img class="item__image" src="https://via.placeholder.com/150x150" alt="Photo-2" width="150" height="150">
-            <h3 class="item__caption">Местная растительность</h3>
-            <span class="item__author">Автор фото: Сергей</span><br>
-            <img class="item__like-image" src="https://via.placeholder.com/40x40" alt="Like" width="40" height="40">
-            <b class="item__like-score">143</b>
+          <li class="pictures__list-item">
+            <img class="pictures__list-image" src="https://via.placeholder.com/150x150" alt="фотография пользователя" width="150" height="150">
+            <h3 class="pictures__list-caption">Местная растительность</h3>
+            <span class="pictures__list-author">Автор фото: Сергей</span><br>
+            <!--Иконка-псевдоэлементом-->
+            <b class="pictures__list-score">143</b>
           </li>
 
-          <li class="pictures__item">
-            <img class="item__image" src="https://via.placeholder.com/150x150" alt="Photo-3" width="150" height="150">
-            <h3 class="item__caption">Дорога на север</h3>
-            <span class="item__author">Автор фото: Петр</span><br>
-            <img class="item__like-image" src="https://via.placeholder.com/40x40" alt="Like" width="40" height="40">
-            <b class="item__like-score">96</b>
+          <li class="pictures__list-item">
+            <img class="pictures__list-image" src="https://via.placeholder.com/150x150" alt="фотография пользователя" width="150" height="150">
+            <h3 class="pictures__list-caption">Дорога на север</h3>
+            <span class="pictures__list-author">Автор фото: Петр</span><br>
+            <!--Иконка-псевдоэлементом-->
+            <b class="pictures__list-score">96</b>
           </li>
 
-          <li class="pictures__item">
-            <img class="item__image" src="https://via.placeholder.com/150x150" alt="Photo-4" width="150" height="150">
-            <h3 class="item__caption">Мост дьявола</h3>
-            <span class="item__author">Автор фото: Антон</span><br>
-            <img class="item__like-image" src="https://via.placeholder.com/40x40" alt="Like" width="40" height="40">
-            <b class="item__like-score">254</b>
+          <li class="pictures__list-item">
+            <img class="pictures__list-image" src="https://via.placeholder.com/150x150" alt="фотография пользователя" width="150" height="150">
+            <h3 class="pictures__list-caption">Мост дьявола</h3>
+            <span class="pictures__list-author">Автор фото: Антон</span><br>
+            <!--Иконка-псевдоэлементом-->
+            <b class="pictures__list-score">254</b>
           </li>
 
         </ul>
       </div>
     </section>
 
-    <section class="page-main__promo">
+    <section class="promo">
       <h3 class="promo__title">Все еще сомневаетесь?</h3>
       <p class="promo__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной
         раз!</p>
       <img class="promo__image" src="https://via.placeholder.com/150x150" alt="Promo-presentation" width="150"
         height="150">
     </section>
+
   </main>
 
   <footer class="page-footer">
@@ -107,21 +108,18 @@
 
         <ul class="page-footer__social-list">
           <li>
-            <a class="page-footer__social-link--twitter" href="https://twitter.com/">Мы в Twitter!</a>
+            <a class="page-footer__social-link page-footer__social-link--twitter" href="https://twitter.com/">Мы в Twitter!</a>
+          </li>
+
+          <li>
+            <a class="page-footer__social-link page-footer__social-link--facebook" href="https://www.youtube.com/">Мы на Facebook!</a>
+          </li>
+
+          <li>
+            <a class="page-footer__social-link page-footer__social-link--youtube" href="https://www.youtube.com/">Мы на Youtube!</a>
           </li>
         </ul>
 
-        <ul class="page-footer__social-list">
-          <li>
-            <a class="page-footer__social-link--facebook" href="https://www.youtube.com/">Мы на Facebook!</a>
-          </li>
-        </ul>
-
-        <ul class="page-footer__social-list">
-          <li>
-            <a class="page-footer__social-link--youtube" href="https://www.youtube.com/">Мы на Youtube!</a>
-          </li>
-        </ul>
 
       </div>
 

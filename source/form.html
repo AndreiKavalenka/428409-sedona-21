@@ -18,17 +18,17 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="site-list__item">
-            <a href="index.html">Главная</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link">Главная</a>
           </li>
-          <li class="site-list__item">
-            <a href="catalog.html">Фото и видео</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="catalog.html">Фото и видео</a>
           </li>
-          <li class="site-list__item">
-            <a>Форма отзыва</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="form.html">Форма отзыва</a>
           </li>
-          <li class="site-list__item">
-            <a href="https://htmlacademy.ru/">html academy</a>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="https://htmlacademy.ru/">html academy</a>
           </li>
         </ul>
       </div>
@@ -45,35 +45,35 @@
       <h1 class="visually-hidden">Форма отзыва</h1>
 
       <div class="page-main__intro">
-        <h3 class="intro__title">Оставьте свой отзыв</h3>
-        <p class="intro__description">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами
+        <h3 class="page-main__intro-title">Оставьте свой отзыв</h3>
+        <p class="page-main__intro-text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами
           достопримечательностях</p>
       </div>
     </div>
 
-    <div class="page-main__form-section">
-      <div class="form-section__wrapper">
+    <div class="page-main__form">
+      <div class="page-main__form-wrapper">
 
         <form action="https://echo.htmlacademy.ru" method="POST" id="reviews-form">
 
-          <section class="form-section__item">
-            <h3 class="form-section__title">Представьтесь:</h3>
+          <section class="page-main__form-item">
+            <h3 class="page-main__form-title">Представьтесь:</h3>
 
-            <div class="form-section__form-line">
+            <div class="page-main__form-line">
               <label for="name">Имя:<sup>*</sup></label>
-              <input class="form-section__user-input" type="text" id="name" name="first-name" placeholder="Петр"
+              <input class="page-main__form-input" type="text" id="name" name="first-name" placeholder="Петр"
                 required>
             </div>
 
-            <div class="form-section__form-line">
+            <div class="page-main__form-line">
               <label for="second-name">Фамилия:<sup>*</sup></label>
-              <input class="form-section__user-input" type="text" id="second-name" name="second-name"
+              <input class="page-main__form-input" type="text" id="second-name" name="second-name"
                 placeholder="Иванов" required>
             </div>
 
-            <div class="form-section__form-line">
+            <div class="page-main__form-line">
               <label for="middle-name">Отчество:</label>
-              <input class="form-section__user-input" type="text" id="middle-name" name="middle-name"
+              <input class="page-main__form-input" type="text" id="middle-name" name="middle-name"
                 placeholder="Александрович">
             </div>
           </section>
@@ -177,19 +177,15 @@
 
         <ul class="page-footer__social-list">
           <li>
-            <a class="page-footer__social-link--twitter" href="https://twitter.com/">Мы в Twitter!</a>
+            <a class="page-footer__social-link page-footer__social-link--twitter" href="https://twitter.com/">Мы в Twitter!</a>
           </li>
-        </ul>
 
-        <ul class="page-footer__social-list">
           <li>
-            <a class="page-footer__social-link--facebook" href="https://www.youtube.com/">Мы на Facebook!</a>
+            <a class="page-footer__social-link page-footer__social-link--facebook" href="https://www.youtube.com/">Мы на Facebook!</a>
           </li>
-        </ul>
 
-        <ul class="page-footer__social-list">
           <li>
-            <a class="page-footer__social-link--youtube" href="https://www.youtube.com/">Мы на Youtube!</a>
+            <a class="page-footer__social-link page-footer__social-link--youtube" href="https://www.youtube.com/">Мы на Youtube!</a>
           </li>
         </ul>
 
