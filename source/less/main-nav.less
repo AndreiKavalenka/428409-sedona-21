@@ -1,15 +1,23 @@
-@mobile-menu-button-color: #81B3D2;
+@import "vars";
 
 .main-nav {}
 
 .main-nav__toggle {}
 
-.main-nav__list {}
-
-.main-nav__list-item {
-  background-color: red;
-  width: 320px;
-  min-height: 55px;
+.main-nav__list {
+  list-style: none;
+  text-align: center;
 }
 
-.main-nav__list-link {}
+.main-nav__list-item {
+  background-color: @mobile-menu-button-color;
+  width: 320px;
+  min-height: 55px;
+  text-transform: uppercase;
+}
+
+.main-nav__list-link {
+  text-decoration: none;
+  font-size: @menu-font-size;
+  line-height: 40px;
+}
