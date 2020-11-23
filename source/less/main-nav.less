@@ -1,10 +1,12 @@
-@import "vars";
-
-.main-nav {}
+.main-nav {
+  width: 100%;
+}
 
 .main-nav__toggle {}
 
 .main-nav__list {
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
@@ -12,12 +14,16 @@
 .main-nav__list-item {
   background-color: @mobile-menu-button-color;
   width: 320px;
-  min-height: 55px;
-  text-transform: uppercase;
+  height: 55px;
+  padding-top: 15px;
+  text-transform: @font-style;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
 
 .main-nav__list-link {
   text-decoration: none;
   font-size: @menu-font-size;
+  color: white;
   line-height: 40px;
+  font-weight: @font-title;
 }
