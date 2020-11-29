@@ -1,23 +1,20 @@
 .main-nav {
-  width: 100%;
-  font-family: @font;
+  font-family: @base-font;
 }
 
 .main-nav__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+
+  .list-reset;
+
   text-align: center;
   display: flex;
   flex-direction: column;
-  //justify-content: center;
 }
 
 .main-nav__list-item {
-  background-color: @mobile-menu-button-color;
+  background-color: @main-color;
   width: 320px;
-  height: 55px;
-  text-transform: @font-style;
+  text-transform: uppercase;
   border-bottom: 1px solid #678fa8;
   box-shadow: 0px 1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
@@ -25,9 +22,9 @@
 .main-nav__list-link {
   text-decoration: none;
   display: block;
-  //padding-top: 6%;
   font-size: 18px;
-  color: white;
-  line-height: 55px;
+  color: #ffffff;
   font-weight: bold;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
